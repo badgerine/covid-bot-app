@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgxMicrosoftBotFrameworkModule } from 'ngx-microsoft-bot-framework';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgxMicrosoftBotFrameworkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
